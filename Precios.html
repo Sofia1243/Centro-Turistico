@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifas - Parque Nacional Lanín</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            background-color: #2980B9;
+            margin: 0;
+        }
+
+        .tariff-table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2980B9;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td[rowspan] {
+            vertical-align: middle;
+        }
+
+        .price {
+            color: #27AE60;
+            font-weight: bold;
+        }
+
+        .child-price {
+            color: #F39C12;
+            font-weight: bold;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .tariff-table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fa-solid fa-mountain-sun" style="color: #0ed811;"> AdvenTour</i>  
+                </div>
+                <!-- Checkbox oculto para controlar el menú -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <!-- Icono de hamburguesa -->
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <!-- Menú de navegación -->
+                <ul class="nav-links">
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Información.html">Información</a></li>
+                    <li><a href="Actividades.html">Actividades</a></li>
+                    <li><a href="Precios.html">Tarifas</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+<br>
+<h1>Tarifas de Actividades - Parque Nacional Lanín</h1>
+
+<table class="tariff-table">
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Precio Adulto</th>
+            <th>Precio Niño</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1">Trekking y Montañismo</td>
+            <td class="price">12,500$</td>
+            <td class="child-price">8,500$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Huella Andina</td>
+            <td class="price">8,000$</td>
+            <td class="child-price">5,000$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Pesca Deportiva</td>
+            <td class="price">5,000$</td>
+            <td class="child-price">0$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Mountain Bike</td>
+            <td class="price">0$</td>
+            <td class="child-price">0$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero de interpretación ‘El Bosque’</td>
+            <td class="price">6,000$</td>
+            <td class="child-price">4,500$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero de ascensión al Cerro Chivo</td>
+            <td class="price">7,500$</td>
+            <td class="child-price">4,500$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero a Cascada el Saltillo</td>
+            <td class="price">10,000$</td>
+            <td class="child-price">7,000$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero a la seccional Paimún</td>
+            <td class="price">14,000$</td>
+            <td class="child-price">9,800$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero al Refugio Paimún</td>
+            <td class="price">9,500$</td>
+            <td class="child-price">7,600$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero a la naciente del río Malleo y Lago Tromen</td>
+            <td class="price">12,000$</td>
+            <td class="child-price">9,000$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Sendero a Quillén por Valle de las Magdalenas</td>
+            <td class="price">8.800$</td>
+            <td class="child-price">6,800$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Ascenso al Volcán Lanín</td>
+            <td class="price">15,700$</td>
+            <td class="child-price">11,000$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Senda Puerto Arturo-Auquinco- Laguna Verde</td>
+            <td class="price">3,000$</td>
+            <td class="child-price">1,50$</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Senda Quila Quina Lago Escondido Ruca Ñire Pucará</td>
+            <td class="price">2,300$</td>
+            <td class="child-price">1,600$</td>
+        </tr>
+    </tbody>
+</table>
+
+<section id="descuentos">
+    <h2>Descuentos Especiales</h2>
+    <div class="descuento">
+      <h3>Descuento por Temporada Baja</h3>
+      <p>Durante los meses de abril a septiembre, ¡disfruta de un <strong>20% de descuento</strong> en todas las actividades!</p>
+    </div>
+    <div class="descuento">
+      <h3>Descuento por Grupos</h3>
+      <p>Reserva para un grupo de 4 personas o más y recibe un <strong>10% de descuento</strong> en la actividad.</p>
+    </div>
+    <div class="descuento">
+      <h3>Descuento para Estudiantes y Docentes</h3>
+      <p>Muestra tu carnet de estudiante o docente y obtén un <strong>10% de descuento</strong>.</p>
+    </div>
+    <div class="descuento">
+      <h3>Descuento por Reserva Anticipada</h3>
+      <p>Reserva con 15 días de antelación y obtén un <strong>10% de descuento</strong>.</p>
+    </div>
+    
+    <p><strong>¡No pierdas estas increíbles ofertas!</strong></p>
+    
+    <div class="terminos">
+      <p><em><strong>Términos y condiciones:</strong></em></p>
+      <ul>
+        <li>Descuentos no acumulables.</li>
+        <li>Los descuentos para grupos requieren un mínimo de 4 personas.</li>
+        <li>Oferta válida solo para nuevas reservas realizadas en el sitio web oficial.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Parque Nacional Lanín. Todos los derechos reservados.</p>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com" target="_blank"><img src="Img/icons8-instagram-48.png" alt="Instagram" width="30" height="30"></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="Img/icons8-facebook-48.png" alt="Facebook" width="30" height="30"></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="Img/icons8-twitter-48.png" alt="Twitter" width="30" height="30"></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
